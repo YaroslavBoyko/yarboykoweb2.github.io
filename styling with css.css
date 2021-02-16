@@ -1,0 +1,326 @@
+/* THE CSS STYLING WITH COLUMNS		*/
+/* Yaroslav Boyko		*/
+
+body{
+	/*background-color: #3d3d29;*/
+	background-image:url("images/nervbackground.jpg");
+	background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+	text-align: center;
+	margin: 0px;
+	padding: 0px;
+	font-size: 28px;
+}
+.logo-image{
+	padding-top: 200px;
+  padding-right: ;
+  padding-bottom: 200px;
+  padding-left: ;
+	background-image:url("images/evangelion-header5.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size:cover;
+	position: relative;
+}
+
+.listv{
+	overflow: auto;
+	white-space: nowrap;
+}
+
+ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	width:200px;
+	height: 100%;
+	overflow: auto;
+	background-color:transparent;
+	position: fixed;
+}
+
+li{
+	float: left;
+}
+
+li a{
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 8px 16px;
+	text-decoration: none;
+}
+
+li a:hover {
+	background-color: white;
+}
+
+.active {
+	background-color:#ad1409;	
+}
+
+li a:hover:not(.active) {
+	background-color: #555;
+	color: white;
+}
+
+
+h1{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13pt;
+	font-style: normal;
+	font-weight: bold;
+	color: white;
+	text-align: center;
+}
+
+h2{
+	font-size: ;
+	font-weigth: ;
+	color: white;
+	text-align: center;
+}
+h3{
+	color: white;
+}
+h4{
+	color: #ffdbc9;
+}
+
+p{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: ;
+	font-style: normal;
+	color: ;
+	text-align: ;
+}
+
+#wrapper{
+	padding:0px;
+	width: ;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+	text-align: center;
+}
+
+#header{
+	margin-top: 12px;
+	margin-bottom: 12px;
+	text-align: center;
+}
+
+#content{
+	
+	/*margin-top: 20px;
+	margin-right: 10px;
+	margin-bottom: 20px;*/
+	text-align: center;
+	padding-top: ;
+	padding-right: 500px;
+	padding-bottom: ;
+	padding-left: 400px;
+
+}
+
+#footer{
+	margin: ;
+}
+a:link{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:
+	font-style: italic;
+	font-weight: ;
+	color: ;
+}
+a:hover{
+	color: green;
+}
+a:visited{
+	color: neon;
+}
+.small{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: .8em;
+	font-weigth: ; 
+	text-transform: uppercase;
+	color: ;
+	text-align: center;
+}
+
+#rightcol{
+	font-size: ;
+	color: green;
+	text-align: center;
+	width: 400px;
+	height: 400px;
+	float: right;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+	padding-right:10px;
+	border-width:10px;
+	border-top-style: dotted;
+	border-right-style: dashed;
+	border-left-style: solid;
+	border-bottom-style: solid;
+	border-top-color: green;
+	border-right-color: green;
+	border-bottom-color: green;
+	border-left-color: #FF00FF;	
+}
+
+#leftcol{
+	width: 400px;
+	height: 400px;
+	float: left;
+	text-align: justify;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 20px;
+	padding-right: 20px;
+	border-width: 10px;
+	border-top-style: dotted;
+	border-right-style: dashed;
+	border-left-style: solid;
+	border-bottom-style: solid;
+	border-color: #FF0000
+}
+
+
+
+
+.fa{
+	padding: 20px;
+	font-size: 30px;
+	width: 50px;
+	text-align: center;
+	text-decoration: none;
+}
+.fa:hover{
+	opacity: 0.7;
+}
+.fa-facebook{
+	background: #3B5998;
+	color: white;
+}
+.fa-twitter{
+	background: #55ACEE;
+	color:white;
+}
+.fa-instagram{
+	background: ;
+	color:;
+}
+
+
+
+
+
+input[type=text], select{
+	width: 100%;
+	padding: 12px 20px;
+	margin: 8px 0;
+	display:inline-block;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	box-sizing: border-box;
+}
+input[type=submit]{
+	width: 100%;
+	background-color: #4CAF50;
+	color: white;
+	padding: 14px 20px;
+	margin: 8px 0;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+}
+input[type=submit]:hover{
+	background-color: #45a049;
+}
+div{
+	border-radius: 5px;
+	padding: 20px;
+}
+
+
+
+
+
+
+
+#images{
+	border-radius: 5px;
+	cursor: pointer;
+	transition: 0.3s;
+}
+#images:hover{opacity: 0.7;}
+
+.modal{
+	display: none;
+	position: fixed;
+	z-index: 1;
+	padding-top: 100px;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%; 
+	overflow: auto;
+	background-color: rgb(0,0,0);
+	background-color: rgba(0,0,0,0.9);
+}
+
+.modal-content{
+	margin:auto;
+	display:block;
+	width: 80%;
+	max-width: 700px;
+}
+
+#caption {
+	margin:auto;
+	display: block;
+	width: 80%;
+	max-width: 700px;
+	text-align: center;
+	color: #ccc;
+	padding: 10px 0;
+	height: 150px;
+}
+
+.modal-content, #caption{
+	animation-name: zoom;
+	animation-duration: 0.5s;
+}
+
+
+@keyframes zoom {
+	from{transform: scale(0.1)}
+	to {transform: scale(1);}
+}
+
+.close {
+	position: absolute;
+	top: 15px;
+	right: 35px;
+	color: #f1f1f1;
+	font-size: 40px;
+	font-weight: bold;
+	transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+	color: #bbb;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+@media only screen and (max-width: 700px){
+	.modal-content {
+		width: 100%;
+	}
+}
